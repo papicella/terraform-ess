@@ -88,6 +88,26 @@ elasticsearch_password = "....."
 
 ```
 
+### Remove the Elastic Cloud deployment
+
+```bash
+$ terraform destroy -auto-approve
+ec_deployment.test-tf-deployment: Destroying... [id=b334234ccde9edb02e7ca5eb3493bb59]
+ec_deployment.test-tf-deployment: Still destroying... [id=b334234ccde9edb02e7ca5eb3493bb59, 10s elapsed]
+ec_deployment.test-tf-deployment: Still destroying... [id=b334234ccde9edb02e7ca5eb3493bb59, 20s elapsed]
+ec_deployment.test-tf-deployment: Still destroying... [id=b334234ccde9edb02e7ca5eb3493bb59, 30s elapsed]
+ec_deployment.test-tf-deployment: Still destroying... [id=b334234ccde9edb02e7ca5eb3493bb59, 40s elapsed]
+ec_deployment.test-tf-deployment: Still destroying... [id=b334234ccde9edb02e7ca5eb3493bb59, 50s elapsed]
+ec_deployment.test-tf-deployment: Still destroying... [id=b334234ccde9edb02e7ca5eb3493bb59, 1m0s elapsed]
+ec_deployment.test-tf-deployment: Still destroying... [id=b334234ccde9edb02e7ca5eb3493bb59, 1m10s elapsed]
+ec_deployment.test-tf-deployment: Still destroying... [id=b334234ccde9edb02e7ca5eb3493bb59, 1m20s elapsed]
+ec_deployment.test-tf-deployment: Still destroying... [id=b334234ccde9edb02e7ca5eb3493bb59, 1m30s elapsed]
+ec_deployment.test-tf-deployment: Still destroying... [id=b334234ccde9edb02e7ca5eb3493bb59, 1m40s elapsed]
+ec_deployment.test-tf-deployment: Destruction complete after 1m41s
+
+Destroy complete! Resources: 1 destroyed.
+```
+
 <hr />
 Pas Apicella [pas.apicella at elastic.co] is an Solution Architect at Elastic APJ  
 
